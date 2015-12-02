@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from projectname.home.views import HomeView
+from djangotest.home.views import HomeView
 
 admin.autodiscover()
 
